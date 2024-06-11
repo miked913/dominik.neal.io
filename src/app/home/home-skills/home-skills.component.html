@@ -1,16 +1,55 @@
 <div class="home-skills-section">
 
-  <h2>My Skills</h2>
+  <!-- <h2>My Skills</h2> -->
   <h1>Building Products with Purpose</h1>
   <p>Here are some of the skills I have developed over the years.</p>
 
   <div class="skills-container" [@listAnimation]="skills" >
-    <mat-card class="mat-elevation-z10" *ngFor="let skill of skills; let i = index" >
-      <mat-card-header>
+    <!-- <mat-card class="mat-elevation-z10" *ngFor="let skill of skills; let i = index" > -->
+    <mat-card class="mat-elevation-z10">
+
+      <!-- <mat-card-header>
         <mat-card-title>{{ skill }}</mat-card-title>
       </mat-card-header>
       <mat-card-content>
         <p>{{ skill }}</p>
+      </mat-card-content> -->
+
+
+      <mat-card-header>
+        <mat-card-title>Skills & Tools</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+
+        <mat-grid-list cols="2">
+          <mat-grid-tile>
+            <mat-list>
+              <mat-list-item>
+                <span matListItemTitle>Skills</span>
+                <span matListItemLine>Data Analysis</span>
+                <span matListItemLine>Stakeholder Management</span>
+                <span matListItemLine>Roadmapping</span>
+                <span matListItemLine>Requirement Gathering</span>
+                <span matListItemLine>Strategy</span>
+              </mat-list-item>
+            </mat-list>
+          </mat-grid-tile>
+
+          <mat-grid-tile>
+            <mat-list>
+              <mat-list-item>
+                <span matListItemTitle>Tools</span>
+                <span matListItemLine>Tableau</span>
+                <span matListItemLine>Adobe Analytics</span>
+                <span matListItemLine>Snowflake</span>
+                <span matListItemLine>Monetate</span>
+                <span matListItemLine>Jira</span>
+              </mat-list-item>
+            </mat-list>
+          </mat-grid-tile>
+        </mat-grid-list>
+
       </mat-card-content>
     </mat-card>
   </div>

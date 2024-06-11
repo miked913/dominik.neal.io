@@ -36,3 +36,11 @@ Projects
 - Software USed (list)
 - Market Strategy
 - Learning
+
+
+
+TO-DO:
+- update styling
+- fix contact me form to make functional
+- update resume page
+- 
