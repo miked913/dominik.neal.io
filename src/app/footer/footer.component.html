@@ -1,0 +1,25 @@
+<!-- <mat-card > -->
+  <mat-list>
+    <mat-divider [inset]="false"></mat-divider>
+    <h3 mat-subheader>{{ subheader }}</h3>
+  </mat-list>
+
+  <div class="form-wrapper" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <mat-form-field class="name" appearance="outline">
+      <mat-label>Full Name</mat-label>
+      <input matInput placeholder="Name" formControlName="fullName">
+    </mat-form-field>
+
+    <mat-form-field class="email" appearance="outline">
+      <mat-label>Email</mat-label>
+      <input matInput placeholder="ex: johndoe@gmail.com" formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field class="message" appearance="outline">
+      <mat-label>How can I help?</mat-label>
+      <textarea matInput placeholder="Enter description..." formControlName="message"></textarea>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Submit</button>
+  </div>
+<!-- </mat-card> -->

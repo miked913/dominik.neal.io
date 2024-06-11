@@ -1,0 +1,37 @@
+<div *ngIf="project" class="projects-page-wrapper">
+
+  <h1 >{{ project.header }}</h1>
+  <h3 class="subheader" >{{ project.subheader }}</h3>
+
+  <div *ngIf="project.image" class="img-container mat-elevation-z15" >
+    <img *ngFor="let img of project.image" [src]="img" [alt]="project.subheader">
+  </div>
+
+  <div *ngIf="project.video" class="video-container mat-elevation-z15">
+    <video *ngFor="let vid of project.video" [src]="vid" controls muted playsinline></video>
+  </div>
+
+  <h3 class="section-title" *ngIf="project.skills">Skills Utilized</h3>
+  <ul *ngIf="project.skills">
+    <li *ngFor="let skill of project.skills">{{ skill }}</li>
+  </ul>
+
+  <h3 class="section-title" *ngIf="project.kpis">Key Performance Indicators</h3>
+  <ul *ngIf="project.kpis">
+    <li *ngFor="let kpi of project.kpis">{{ kpi }}</li>
+  </ul>
+
+  <h3 class="section-title" *ngIf="project.overview">Overview</h3>
+  <p>{{ project.overview }}</p>
+
+  <h3 class="section-title" *ngIf="project.software">Software Used</h3>
+  <ul *ngIf="project.software">
+    <li *ngFor="let soft of project.software">{{ soft }}</li>
+  </ul>
+
+  <h3 class="section-title" *ngIf="project.strategy">Market Strategy</h3>
+  <p>{{ project.strategy }}</p>
+
+  <h3 class="section-title" *ngIf="project.learning">Learning</h3>
+  <p>{{ project.learning }}</p>
+</div>

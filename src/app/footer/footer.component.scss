@@ -1,0 +1,22 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  mat-form-field {
+    width: 75%;
+    // max-width: 60 0px; // You can adjust this value based on your needs
+    margin: 10px 0; // Add some vertical spacing between form fields
+
+
+  }
+
+  mat-form-field.name {
+    width: 60%;
+  }
+  mat-form-field.email {
+    width: 65%;
+  }
+}

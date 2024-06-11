@@ -1,0 +1,18 @@
+<div class="home-skills-section">
+
+  <h2>My Skills</h2>
+  <h1>Building Products with Purpose</h1>
+  <p>Here are some of the skills I have developed over the years.</p>
+
+  <div class="skills-container" [@listAnimation]="skills" >
+    <mat-card class="mat-elevation-z10" *ngFor="let skill of skills; let i = index" >
+      <mat-card-header>
+        <mat-card-title>{{ skill }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{ skill }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+</div>

@@ -1,0 +1,55 @@
+<mat-sidenav-container fullscreen class="sidenav-container">
+
+  <!-- SIDE NAV -->
+  <mat-sidenav #sidenav class="sidenav" position="start">
+    <mat-nav-list (click)="sidenav.close()">
+      <a mat-list-item routerLink="/home">
+        <mat-icon fontIcon="home"></mat-icon>
+        <span>Home</span>
+      </a>
+      <a mat-list-item routerLink="/about">
+        <mat-icon>info</mat-icon>
+        <span>About</span>
+      </a>
+      <a mat-list-item routerLink="/projects">
+        <mat-icon>work</mat-icon>
+        <span>Projects</span>
+      </a>
+      <a mat-list-item routerLink="/skills">
+        <mat-icon>build</mat-icon>
+        <span>Skills</span>
+      </a>
+      <a mat-list-item routerLink="/resume">
+        <mat-icon>description</mat-icon>
+        <span>Resume</span>
+      </a>
+      <a mat-list-item routerLink="/contact">
+        <mat-icon>mail</mat-icon>
+        <span>Contact</span>
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <!-- MAIN CONTENT -->
+  <mat-sidenav-content>
+
+    <!-- menu button floated to the ride side of page-->
+    <!-- <mat-toolbar color="primary"> -->
+    <button mat-icon-button (click)="sidenav.toggle()" style="float:inline-end; margin-top: 15px;">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <!-- </mat-toolbar> -->
+
+
+    <!-- router for other pages -->
+    <div class="content-container">
+      <router-outlet></router-outlet>
+    </div>
+
+    <!-- insert a footer component that has input fields
+    for full name, email, and message. Also a submit button. -->
+    <app-footer></app-footer>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

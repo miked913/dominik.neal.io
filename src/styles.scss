@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+@use '@angular/material' as mat;
+@use 'sass:map';
+
+
+
+// @import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+// @import '@angular/material/core/theming.css';
+
+@include mat.core();
+
+
+// $dark-primary-text: rgba(black, 0.87);
+// $light-primary-text: white;
+
+// $mat-dark-theme-background: (background: #303030);
+// $mat-dark-theme-background: mat-palette($dark-theme-background-palette);
+
+
+// $light-primary: mat-palette($mat-deep-purple);
+// $light-accent: mat-palette($mat-deep-purple);
+// $light-theme: mat-light-theme((
+//    color: (
+//     primary: $light-primary,
+//     accent: $light-accent,
+//     background: $mat-light-theme-background,
+//    )
+// ));
+
+$dark-primary: mat.define-palette(mat.$indigo-palette);
+$dark-accent: mat.define-palette(mat.$indigo-palette, 900);
+// $dark-background: mat-palette(mat.$dark-theme-background-palette);
+
+// $dark-theme: mat-dark-theme((
+//   color: (
+//     primary: $dark-primary,
+//     accent: $dark-accent,
+//   )
+// ));
+
+$dark-theme: mat.define-dark-theme($dark-primary, $dark-accent);
+
+@include mat.all-component-themes($dark-theme);
