@@ -42,5 +42,21 @@ Projects
 TO-DO:
 - update styling
 - fix contact me form to make functional
+- remove skills page
 - update resume page
-- 
+- fix responsivenessS
+- add screenshot of video for last projectS
+
+Dom's List:
+- blue and white color scheme
+- add resume to resume page... maybe pdf viewer?
+- Skills page?? Confirm?
+
+Done:
+- change to my recent projects
+- remove "projects"
+- under project manager add a subheader "About Dominik"
+- switch head shot and about me
+- on projects page have the images stretch out more towards the end of page, make less blurry
+  - tried to make less blurry and made img bigger... but the images aren;t the same size thats why blurry before
+- make the image bigger on the project on home page and make the content a one liner

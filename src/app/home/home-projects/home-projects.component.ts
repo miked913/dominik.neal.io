@@ -33,7 +33,7 @@ export class HomeProjectsComponent {
   projects: Project[] = [{
     id: "1",
     header: "Complete The Look",
-    subheader: "Ralph Lauren Corp | Cart and Wardrobe Recommendation Experience (Project 1)",
+    subheader: "Ralph Lauren Corp | Cart and Wardrobe Recommendation Experience",
     image: ["/dominik.neal.io/assets/project1/p1_1.png","/dominik.neal.io/assets/project1/p1_2.png", "/dominik.neal.io/assets/project1/p1_3.png"],
     skills: ["Roadmapping", "JIRA", "Discovery"],
     kpis: ["Average Order Value (AOV)", "Conversion Rate", "Bounce Rate", "Session Metric"],
@@ -45,7 +45,7 @@ export class HomeProjectsComponent {
     {
       id: "2",
       header: "Holidays Shopping Quiz",
-      subheader: "Ralph Lauren Corp | Home Page Placement (Project 2)",
+      subheader: "Ralph Lauren Corp | Home Page Placement",
       image: ["/dominik.neal.io/assets/project2/p2_1.png","/dominik.neal.io/assets/project2/p2_2.png", "/dominik.neal.io/assets/project2/p2_3.png", "/dominik.neal.io/assets/project2/p2_4.png"],
       skills: ["Roadmapping", "JIRA", "Discovery", "Wire-framing", "Global Stakeholder Alignment"],
       kpis: ["Average Order Value (AOV)", "Conversion Rate", "Bounce Rate", "Session Metric"],
