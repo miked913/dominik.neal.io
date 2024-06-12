@@ -10,11 +10,15 @@
 //   margin: 10px;
 // }
 
-.skills-tools-container {
+.skill-tools-content {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 10px;
+}
+
+mat-list-item {
+  font-size: 13px;
 }
 
 mat-card {
