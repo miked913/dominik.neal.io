@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'projects/:id', component: ProjectsPageComponent },
-  { path: 'skills', component: SkillsComponent },
+  // { path: 'skills', component: SkillsComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '/' }
