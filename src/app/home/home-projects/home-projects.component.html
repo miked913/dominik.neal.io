@@ -5,7 +5,7 @@
   <!-- <p>Here are some of the projects I have developed over the years.</p> -->
 
   <div class="projects-container" [@projectAnimation]="projects" >
-    <mat-card class="mat-elevation-z10" *ngFor="let project of projects; let i = index" >
+    <mat-card class="mat-elevation-z10 project-card" *ngFor="let project of projects; let i = index" >
 
       <mat-card-header>
         <mat-card-title>{{ project.header }}</mat-card-title>

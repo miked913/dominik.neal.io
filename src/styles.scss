@@ -47,7 +47,7 @@ $dark-theme: mat.define-dark-theme($dark-primary, $dark-accent);
 
 
 // global styles overrides
-.mat-mdc-card {
+.mat-mdc-card.project-card {
   background-color: #042131;
 }
 
