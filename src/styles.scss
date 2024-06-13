@@ -54,3 +54,8 @@ $dark-theme: mat.define-dark-theme($dark-primary, $dark-accent);
 .bioapp-link.mat-mdc-button:not(:disabled) {
   color: #00A6FB;
 }
+
+.bioapp-card-title.mat-mdc-card-title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
