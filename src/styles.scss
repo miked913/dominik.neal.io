@@ -59,3 +59,12 @@ $dark-theme: mat.define-dark-theme($dark-primary, $dark-accent);
   font-size: 1.1em;
   font-weight: bold;
 }
+
+.bioapp-section-border-top {
+  border-top-style: ridge;
+  border-top-color: darkslategrey;
+}
+.bioapp-section-border-bottom {
+  border-bottom-style: ridge;
+  border-bottom-color: darkslategrey;
+}
