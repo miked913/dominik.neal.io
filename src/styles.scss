@@ -47,10 +47,10 @@ $dark-theme: mat.define-dark-theme($dark-primary, $dark-accent);
 
 
 // global styles overrides
-.mat-mdc-card.project-card {
+.mat-mdc-card.bioapp-card {
   background-color: #042131;
 }
 
-.mat-mdc-button:not(:disabled) {
+.bioapp-link.mat-mdc-button:not(:disabled) {
   color: #00A6FB;
 }
