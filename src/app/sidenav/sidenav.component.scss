@@ -1,8 +1,18 @@
+// root level styles for the app
+
 .content-container{
   text-align: center;
 }
 
-.side-nav-container{
+.sidenav-container{
   // background-color: #061117;
   background-color: #061117 !important;
+}
+
+.mat-mdc-card {
+  background-color: #042131;
+}
+
+.mat-mdc-button:not(:disabled) {
+  color: #00A6FB;
 }
