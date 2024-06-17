@@ -44,6 +44,7 @@ TO-DO:
 - fix contact me form to make functional
 - update resume page
 - fix responsiveness
+- add links for email, phone, and linkedin
 
 
 Dom's List:

@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class GetInTouchComponent {
 
+  goToLink(url: string) {
+    window.open(url, "_blank");
+  }
 }
