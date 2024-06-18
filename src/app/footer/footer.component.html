@@ -20,7 +20,7 @@
       <textarea matInput placeholder="Enter description..." formControlName="message"></textarea>
     </mat-form-field>
 
-    <button mat-raised-button color="primary" type="submit">Submit</button>
+    <button [disabled]="!contactForm.valid" mat-raised-button color="primary" type="submit">Submit</button>
   </div>
 <!-- </mat-card> -->
 </div>

@@ -8,6 +8,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class FooterComponent implements OnInit {
   // contactForm!: FormGroup;
+  hostEmail = 'madennis914@gmail.com';
   @Input() subheader = 'Contact Dominik';
 
 
@@ -27,6 +28,16 @@ export class FooterComponent implements OnInit {
   onSubmit() {
     if (this.contactForm.valid) {
       console.log(this.contactForm.value);
+
+      // SEND EMAIL
+      // window.open('mailto:dominik.neal20@gmail.com', "_blank");
+      const emailLink = this.generateMailToLink();
+      window.open(emailLink, "_blank");
     }
+  }
+
+  generateMailToLink() {
+    const { fullName, email, message } = this.contactForm.value;
+    return `mailto:` + this.hostEmail + `?subject=Contact%20Form%20Submission%20from%20` + fullName + `&body=` + message+ `%20` + ` from: ` + email;
   }
 }
