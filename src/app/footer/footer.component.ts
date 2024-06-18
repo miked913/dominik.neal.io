@@ -9,6 +9,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class FooterComponent implements OnInit {
   // contactForm!: FormGroup;
   hostEmail = 'madennis914@gmail.com';
+  formSubmitted = false; // Add this line
+
   @Input() subheader = 'Contact Dominik';
 
 
@@ -35,6 +37,10 @@ export class FooterComponent implements OnInit {
       // SEND EMAIL
       // window.open('mailto:dominik.neal20@gmail.com', "_blank");
       const emailLink = this.generateMailToLink();
+
+      this.formSubmitted = true; // Add this line
+      this.contactForm.disable(); // Add this line
+
       window.open(emailLink, "_blank");
     // }
   }

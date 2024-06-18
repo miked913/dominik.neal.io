@@ -4,6 +4,10 @@
     <h3 mat-subheader>{{ subheader }}</h3>
   </mat-list>
 
+  <div *ngIf="formSubmitted" class="submission-message">
+    Your form has been submitted. Thank you!
+  </div>
+
   <form class="form-wrapper" [formGroup]="contactForm">
     <mat-form-field class="name" appearance="outline">
       <mat-label>Full Name</mat-label>
