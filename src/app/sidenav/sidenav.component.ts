@@ -12,4 +12,12 @@ export class SidenavComponent {
   // public toggle(): void {
   //   this.sidenav.toggle();
   // }
+
+
+  openResume() {
+    // /dominik.neal.io/assets/DominikNealResume.pdf
+    // https://miked913.github.io/dominik.neal.io/assets/DominikNealResume.pdf
+    window.open('https://miked913.github.io/dominik.neal.io/assets/DominikNealResume.pdf', "_blank");
+  }
+
 }
