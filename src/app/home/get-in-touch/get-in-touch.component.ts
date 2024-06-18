@@ -10,4 +10,9 @@ export class GetInTouchComponent {
   goToLink(url: string) {
     window.open(url, "_blank");
   }
+
+  mailMe() {
+    window.open('mailto:dominik.neal20@gmail.com', "_blank");
+
+  }
 }
