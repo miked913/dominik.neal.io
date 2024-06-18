@@ -29,14 +29,14 @@ export class FooterComponent implements OnInit {
     console.log(this.contactForm.valid,this.contactForm.value);
     // console.log(this.contactForm.value);
 
-    if (this.contactForm.valid) {
+    // if (this.contactForm.valid) {
       console.log(this.contactForm.value);
 
       // SEND EMAIL
       // window.open('mailto:dominik.neal20@gmail.com', "_blank");
       const emailLink = this.generateMailToLink();
       window.open(emailLink, "_blank");
-    }
+    // }
   }
 
   generateMailToLink() {
