@@ -4,7 +4,7 @@
     <h3 mat-subheader>{{ subheader }}</h3>
   </mat-list>
 
-  <div class="form-wrapper" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <form class="form-wrapper" [formGroup]="contactForm">
     <mat-form-field class="name" appearance="outline">
       <mat-label>Full Name</mat-label>
       <input matInput placeholder="Name" formControlName="fullName">
@@ -20,7 +20,7 @@
       <textarea matInput placeholder="Enter description..." formControlName="message"></textarea>
     </mat-form-field>
 
-    <button mat-raised-button color="primary" type="submit">Submit</button>
-  </div>
+    <button mat-raised-button color="primary" (click)="onSubmit()" >Submit</button>
+  </form>
 <!-- </mat-card> -->
 </div>
