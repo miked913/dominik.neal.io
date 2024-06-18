@@ -26,6 +26,9 @@ export class FooterComponent implements OnInit {
 
   // TODO: IMPLEMENT ON SUBMIT
   onSubmit() {
+    console.log(this.contactForm);
+    console.log(this.contactForm.value);
+
     if (this.contactForm.valid) {
       console.log(this.contactForm.value);
 
