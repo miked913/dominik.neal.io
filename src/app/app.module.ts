@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
-import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+// import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 
 // My Components Imports
@@ -35,6 +35,10 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDividerModule } from '@angular/material/divider';
 import {MatGridListModule} from '@angular/material/grid-list';
 
+// import { MatCarouselModule } from '@ngbmodule/material-carousel';
+// import { MatCarouselSlideComponent } from '@ngbmodule/material-carousel';
+
+
 
 
 
@@ -60,7 +64,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    NgxExtendedPdfViewerModule,
+    // NgxExtendedPdfViewerModule,
     // Material Modules Imports
     MatSidenavModule,
     MatListModule,
@@ -71,7 +75,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatFormFieldModule,
     MatInputModule,
     MatDividerModule,
-    MatGridListModule
+    MatGridListModule,
+    // MatCarouselModule.forRoot(),
+    // MatCarouselSlideComponent
 
   ],
   providers: [],

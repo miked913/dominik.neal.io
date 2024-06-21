@@ -5,6 +5,27 @@
 
   <div *ngIf="project.image" class="img-container mat-elevation-z15" >
     <img *ngFor="let img of project.image" [src]="img" [alt]="project.subheader">
+
+    <!-- <mat-carousel
+      timings="250ms ease-in"
+      [autoplay]="true"
+      interval="5000"
+      color="accent"
+      maxWidth="auto"
+      proportion="25"
+      slides="5"
+      [loop]="true"
+      [hideArrows]="false"
+      [hideIndicators]="false"
+      [useKeyboard]="true"
+      [useMouseWheel]="false"
+      orientation="ltr">
+      <mat-carousel-slide
+        *ngFor="let img of project.image"
+        [image]="img">
+      </mat-carousel-slide>
+    </mat-carousel> -->
+
   </div>
 
   <div *ngIf="project.video" class="video-container mat-elevation-z15">

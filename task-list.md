@@ -41,16 +41,12 @@ Projects
 
 TO-DO:
 - update styling
-- fix contact me form to make functional
-- update resume page
 - fix responsiveness
-- add links for email, phone, and linkedin
 
 
 Dom's List:
 - blue and white color scheme
-- add resume to resume page... maybe pdf viewer?
-- Skills page?? Confirm?
+- create some sort of image viewer for projects
 
 Done:
 - change to my recent projects
@@ -62,3 +58,8 @@ Done:
 - make the image bigger on the project on home page and make the content a one liner
 - add screenshot of video for last projectS
 - remove skills page
+- add links for email, phone, and linkedin
+- fix contact me form to make functional
+- add resume to resume page... maybe pdf viewer?
+
+
