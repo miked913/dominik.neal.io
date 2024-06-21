@@ -34,6 +34,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDividerModule } from '@angular/material/divider';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { ImageSliderComponent } from './image-slider/image-slider.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 // import { MatCarouselModule } from '@ngbmodule/material-carousel';
 // import { MatCarouselSlideComponent } from '@ngbmodule/material-carousel';
@@ -56,7 +58,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     HomeSkillsComponent,
     HomeProjectsComponent,
     GetInTouchComponent,
-    ProjectsPageComponent
+    ProjectsPageComponent,
+
   ],
   imports: [
     HttpClientModule,
@@ -76,6 +79,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatInputModule,
     MatDividerModule,
     MatGridListModule,
+    FontAwesomeModule,
+    ImageSliderComponent
     // MatCarouselModule.forRoot(),
     // MatCarouselSlideComponent
 
