@@ -3,16 +3,15 @@
   <h1 >{{ project.header }}</h1>
   <h3 class="subheader" >{{ project.subheader }}</h3>
 
-  <div *ngIf="project.image" class="img-container mat-elevation-z15" >
+  <div *ngIf="project.image && project.image.length > 1" class="img-container mat-elevation-z15" >
     <!-- <img *ngFor="let img of project.image" [src]="img" [alt]="project.subheader"> -->
 
     <app-image-slider
-    *ngIf="project.image.length > 1"
-    [indicatorsVisible]="true"
-    [animationSpeed]="2000"
-    [slides]="project.image"
-    [autoPlay]="true"
-    [autoPlaySpeed]="2000"
+      [indicatorsVisible]="true"
+      [animationSpeed]="2000"
+      [slides]="project.image"
+      [autoPlay]="true"
+      [autoPlaySpeed]="2000"
   ></app-image-slider>
 
     <!-- <mat-carousel
@@ -38,7 +37,7 @@
   </div>
 
   <div *ngIf="project.video" class="video-container mat-elevation-z15">
-    <video *ngFor="let vid of project.video" [src]="vid" controls muted playsinline></video>
+    <video *ngFor="let vid of project.video" [src]="vid" controls muted autoplay loop></video>
   </div>
 
   <h3 class="section-title" *ngIf="project.skills">Skills Utilized</h3>
