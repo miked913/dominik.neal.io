@@ -7,6 +7,7 @@
     <!-- <img *ngFor="let img of project.image" [src]="img" [alt]="project.subheader"> -->
 
     <app-image-slider
+    *ngIf="project.image.length > 1"
     [indicatorsVisible]="true"
     [animationSpeed]="2000"
     [slides]="project.image"
