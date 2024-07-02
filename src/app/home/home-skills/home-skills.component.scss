@@ -26,3 +26,26 @@ mat-card {
   margin: 10px;
   max-width: 320px;
 }
+
+
+@media (min-width: 768px) {
+
+  h2.home-skills-header {
+    align-self: flex-start;
+    margin: 20px;
+  }
+
+  .home-skills-section {
+    text-align: center;
+    font-size: larger;
+
+    mat-list.mdc-list {
+      padding: 8px 12px;
+    }
+  }
+
+  // mat-card {
+  //   margin: 10px;
+  //   max-width: 320px;
+  // }
+}
