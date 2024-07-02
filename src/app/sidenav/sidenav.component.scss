@@ -9,3 +9,32 @@
   background-color: #061117 !important;
 }
 
+
+@media (min-width: 768px) {
+
+  .menu-button {
+    // increase the size of the menu button
+    mat-icon.material-icons {
+      font-size: 1.5em;
+    }
+    // font-size: 1.5em;
+
+  }
+
+  mat-sidenav.sidenav {
+    // increase the width of the sidenav
+    width: 20%px;
+
+    font-size: large;
+
+    // increase the font size of the sidenav
+    mat-icon.material-icons {
+      font-size: 1.5em;
+      padding-right: 4px;
+    }
+
+
+
+  }
+
+}
