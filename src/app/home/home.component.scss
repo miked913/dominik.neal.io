@@ -82,9 +82,9 @@ home-skills{
 
     // border-top-width: 100%;
     // border-bottom-width: 100%;
-    font-size: larger;
 
-    h2 {
+
+    h2.home-skills-header {
       align-self: flex-start;
       margin: 20px;
     }
@@ -92,6 +92,7 @@ home-skills{
       text-align: center;
       // margin: 0px 20px;
       // padding-bottom: 15px;
+      font-size: larger;
 
       mat-list.mdc-list {
         padding: 8px 12px;
