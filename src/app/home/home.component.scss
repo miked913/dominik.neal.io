@@ -72,6 +72,13 @@
     align-items: center;
     flex-direction: column;
 
+    border-top-width: 100%;
+    border-bottom-width: 100%;
+
+    h2 {
+      text-align: start;
+    }
+
   }
 
   home-projects, get-in-touch {
