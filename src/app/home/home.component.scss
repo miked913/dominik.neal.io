@@ -72,16 +72,22 @@
     align-items: center;
     flex-direction: column;
 
-    border-top-width: 100%;
-    border-bottom-width: 100%;
+    // border-top-width: 100%;
+    // border-bottom-width: 100%;
+    font-size: larger;
 
     h2 {
-      text-align: start;
+      align-self: flex-start;
+      margin: 20px;
     }
     .home-skills-section {
       text-align: center;
       // margin: 0px 20px;
       // padding-bottom: 15px;
+
+      mat-list.mdc-list {
+        padding: 8px 12px;
+      }
     }
 
   }
