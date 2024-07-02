@@ -49,8 +49,15 @@ p {
 
 @media (min-width: 768px) {
 
+
   .projects-page-wrapper {
     margin: 20px;
+    font-size: 18px;
+
+    h3 {
+      font-size: 20px;
+    }
+
   }
 
   .img-container {
@@ -68,6 +75,8 @@ p {
     width: auto;
     padding-bottom: 20px;
   }
+
+
 
   /*
   .section-title {
