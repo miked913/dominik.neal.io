@@ -44,3 +44,51 @@
 }
 
 
+// /* Mobile styles */
+// .about-me {
+//   font-size: 16px;
+//   /* other styles */
+// }
+
+// home-skills, home-projects, get-in-touch {
+//   /* mobile styles */
+// }
+
+
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .about-me {
+    font-size: 18px;
+    /* other styles */
+  }
+
+  home-skills {
+    /* tablet styles */
+    // align content within home-skills component to be centered
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  home-projects, get-in-touch {
+    /* tablet styles */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .about-me {
+    font-size: 20px;
+    /* other styles */
+  }
+
+  home-skills, home-projects, get-in-touch {
+    /* desktop styles */
+  }
+}
+
+
