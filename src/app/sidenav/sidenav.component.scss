@@ -14,8 +14,13 @@
 
   .menu-button {
     // increase the size of the menu button
+    margin-top: 10px;
+    margin-right: 5px;
+
     mat-icon.material-icons {
       font-size: 1.5em;
+      overflow: visible;
+
     }
     // font-size: 1.5em;
 
@@ -23,7 +28,7 @@
 
   mat-sidenav.sidenav {
     // increase the width of the sidenav
-    width: 20%px;
+    width: 20%;
 
     font-size: large;
 

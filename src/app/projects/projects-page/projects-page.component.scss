@@ -47,4 +47,44 @@ p {
   margin-top: 0px;
 }
 
+@media (min-width: 768px) {
 
+  .projects-page-wrapper {
+    margin: 20px;
+  }
+
+  .img-container {
+
+    overflow-x: hidden;
+
+    img {
+      width: 300px;
+      height: auto;
+      margin-right: 10px;
+    }
+  }
+
+  .video-container {
+    width: auto;
+    padding-bottom: 20px;
+  }
+
+  /*
+  .section-title {
+    font-size: larger;
+  }
+
+  .subheader {
+    font-size: large;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  p {
+    font-size: 1em;
+  }
+  */
+
+}
