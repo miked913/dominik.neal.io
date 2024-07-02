@@ -25,22 +25,34 @@ mat-card {
 
 @media (min-width: 768px) {
 // on larger screens align projects by rows
+// limit to 2 projects per row
   .projects-container {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+
+    mat-card {
+      flex: 0 0 calc(33.33% - 20px); // 20px is for margin
+      margin: 10px;
+    }
+
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
   }
 
   // .project-image {
-  //   width: 250px;
+  //   width: 370px;
   //   height: auto;
   //   margin: 10px;
   // }
 
-  mat-card {
-    margin: 10px;
-    max-width: 320px;
-  }
+  // mat-card {
+  //   margin: 20px;
+  //   max-width: 320px;
+  // }
 
 
 }
