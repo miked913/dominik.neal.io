@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './resume.component.scss'
 })
 export class ResumeComponent {
-  pdfUrl = '/dominik.neal.io/assets/DominikNealResume.pdf';
+  pdfUrl = '/assets/DominikNealResume.pdf';
 
 
 

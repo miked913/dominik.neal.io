@@ -15,11 +15,11 @@ export class SidenavComponent {
 
 
   openResume(event: any) {
-    // /dominik.neal.io/assets/DominikNealResume.pdf
-    // https://miked913.github.io/dominik.neal.io/assets/DominikNealResume.pdf
+    // /assets/DominikNealResume.pdf
+    // https://miked913.github.io/assets/DominikNealResume.pdf
     event.stopPropagation();
     event.preventDefault();
-    window.open('https://miked913.github.io/dominik.neal.io/assets/DominikNealResume.pdf', "_blank");
+    window.open('https://miked913.github.io/assets/DominikNealResume.pdf', "_blank");
   }
 
 }
